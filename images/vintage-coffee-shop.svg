@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Bina -->
+    <path d="M200,500 L200,200 L600,200 L600,500" fill="none" stroke="#8b7355" stroke-width="3"/>
+    <!-- Çatı -->
+    <path d="M150,200 L400,100 L650,200" fill="none" stroke="#8b7355" stroke-width="3"/>
+    <!-- Kapı -->
+    <path d="M350,500 L350,350 L450,350 L450,500" fill="none" stroke="#8b7355" stroke-width="2"/>
+    <!-- Kapı Detayları -->
+    <path d="M400,500 L400,350" fill="none" stroke="#8b7355" stroke-width="1"/>
+    <circle cx="440" cy="425" r="5" fill="#8b7355"/> <!-- Kapı Kolu -->
+    <!-- Pencereler -->
+    <rect x="250" y="250" width="100" height="80" fill="none" stroke="#8b7355" stroke-width="2"/>
+    <rect x="450" y="250" width="100" height="80" fill="none" stroke="#8b7355" stroke-width="2"/>
+    <!-- Pencere Çaprazları -->
+    <path d="M250,250 L350,330 M250,330 L350,250" fill="none" stroke="#8b7355" stroke-width="1"/>
+    <path d="M450,250 L550,330 M450,330 L550,250" fill="none" stroke="#8b7355" stroke-width="1"/>
+    <!-- Tabelalar -->
+    <rect x="300" y="150" width="200" height="40" fill="none" stroke="#8b7355" stroke-width="2"/>
+    <!-- Dekoratif Detaylar -->
+    <path d="M200,300 L600,300" fill="none" stroke="#8b7355" stroke-width="1" stroke-dasharray="5,5"/>
+    <path d="M200,400 L600,400" fill="none" stroke="#8b7355" stroke-width="1" stroke-dasharray="5,5"/>
+    <!-- Köşe Süsleri -->
+    <path d="M190,190 C200,180 210,180 220,190" fill="none" stroke="#8b7355" stroke-width="2"/>
+    <path d="M580,190 C590,180 600,180 610,190" fill="none" stroke="#8b7355" stroke-width="2"/>
+</svg>

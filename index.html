@@ -6,204 +6,214 @@
     <title>Cortado - Modern Kahve Deneyimi</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
-    <div class="coffee-beans"></div>
-    
-    <nav class="navbar">
-        <div class="logo">
-            <h1>Cortado</h1>
-        </div>
-        <div class="nav-links">
-            <a href="#anasayfa">Ana Sayfa</a>
-            <a href="#subeler">Şubelerimiz</a>
-            <a href="#menu">Menü</a>
-            <a href="#hakkimizda">Hakkımızda</a>
-            <a href="#iletisim">İletişim</a>
-        </div>
-    </nav>
+    <div class="page-wrapper">
+        <header class="header">
+            <nav class="navbar">
+                <ul class="nav-links nav-left">
+                    <li><a href="#menu">MENÜ</a></li>
+                    <li><a href="#subeler">ŞUBELER</a></li>
+                </ul>
+                <a href="#" class="logo">
+                    <h1>CORTADO</h1>
+                </a>
+                <ul class="nav-links nav-right">
+                    <li><a href="#hakkimizda">HAKKIMIZDA</a></li>
+                    <li><a href="#iletisim">İLETİŞİM</a></li>
+                </ul>
+                <button class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </header>
 
-    <section id="anasayfa" class="hero">
-        <div class="floating-beans">
-            <div class="coffee-bean"></div>
-            <div class="coffee-bean"></div>
-            <div class="coffee-bean"></div>
-            <div class="coffee-bean"></div>
-        </div>
-        <div class="hero-content">
-            <h1 class="animate__animated animate__fadeIn">Cortado</h1>
-            <p class="animate__animated animate__fadeIn animate__delay-1s">Modern kahve deneyimini 2D sanat ile buluşturuyoruz</p>
-        </div>
-        <div class="hero-illustration">
-            <!-- Burada 2D çizgi illüstrasyonu yer alacak -->
-        </div>
-    </section>
+        <main>
+            <section id="hero" class="hero">
+                <div class="hero-container">
+                    <div class="hero-frame">
+                        <div class="hero-content">
+                            <h1 class="hero-title">Cortado</h1>
+                            <p class="hero-subtitle">2D Kahve Deneyimi</p>
+                            <p class="hero-description">Minimalist tasarım ve vintage atmosferiyle, modern kahve kültürünü yeniden yorumluyoruz. Her detayı özenle düşünülmüş 2 boyutlu konseptimizde, zamansız bir kahve deneyimi sizi bekliyor.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    <section id="subeler" class="locations">
-        <h2>Şubelerimiz</h2>
-        <div class="location-cards">
-            <div class="location-card sivas">
-                <div class="location-illustration">
-                    <svg class="location-icon" viewBox="0 0 100 100">
-                        <path d="M50 5 L90 30 L90 70 L50 95 L10 70 L10 30 Z" fill="none" stroke="black" stroke-width="2"/>
-                        <path d="M30 40 L70 40 L70 80 L30 80 Z" fill="none" stroke="black" stroke-width="2"/>
-                    </svg>
+            <section id="menu" class="menu-section">
+                <div class="section-title">
+                    <div class="title-frame">
+                        <h2>MENÜMÜZ</h2>
+                    </div>
                 </div>
-                <h3>Sivas</h3>
-                <p>Atatürk Caddesi No: 123<br>
-                Merkez / Sivas</p>
-                <div class="location-details">
-                    <p><strong>Çalışma Saatleri:</strong><br>
-                    Hafta içi: 08:00 - 22:00<br>
-                    Hafta sonu: 09:00 - 23:00</p>
-                    <p><strong>İletişim:</strong><br>
-                    Tel: (346) 222 33 44</p>
-                </div>
-            </div>
-            <div class="location-card izmir">
-                <div class="location-illustration">
-                    <svg class="location-icon" viewBox="0 0 100 100">
-                        <path d="M20 80 L50 20 L80 80" fill="none" stroke="black" stroke-width="2"/>
-                        <circle cx="50" cy="40" r="10" fill="none" stroke="black" stroke-width="2"/>
-                    </svg>
-                </div>
-                <h3>İzmir</h3>
-                <p>Alsancak Kordon Boyu No: 456<br>
-                Konak / İzmir</p>
-                <div class="location-details">
-                    <p><strong>Çalışma Saatleri:</strong><br>
-                    Hafta içi: 08:00 - 23:00<br>
-                    Hafta sonu: 09:00 - 00:00</p>
-                    <p><strong>İletişim:</strong><br>
-                    Tel: (232) 444 55 66</p>
-                </div>
-            </div>
-        </div>
-    </section>
+                <div class="menu-container">
+                    <div class="elegant-frame">
+                        <div class="menu-content">
+                            <div class="menu-category">
+                                <h3>SICAK İÇECEKLER</h3>
+                                <div class="menu-items">
+                                    <div class="menu-item">
+                                        <div class="item-name">Cortado</div>
+                                        <div class="item-line"></div>
+                                        <div class="item-price">45₺</div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="item-name">Espresso</div>
+                                        <div class="item-line"></div>
+                                        <div class="item-price">35₺</div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="item-name">Americano</div>
+                                        <div class="item-line"></div>
+                                        <div class="item-price">40₺</div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="item-name">Flat White</div>
+                                        <div class="item-line"></div>
+                                        <div class="item-price">45₺</div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="item-name">Cappuccino</div>
+                                        <div class="item-line"></div>
+                                        <div class="item-price">45₺</div>
+                                    </div>
+                                </div>
+                            </div>
 
-    <section id="menu" class="menu">
-        <h2>Menümüz</h2>
-        <div class="menu-categories">
-            <div class="menu-category">
-                <h3>Sıcak İçecekler</h3>
-                <div class="menu-items">
-                    <div class="menu-item">
-                        <h4>Cortado</h4>
-                        <p>Espresso ve buharla ısıtılmış kadifemsi süt</p>
-                        <span class="price">₺45</span>
-                    </div>
-                    <div class="menu-item">
-                        <h4>Flat White</h4>
-                        <p>Double espresso üzerine kadifemsi süt</p>
-                        <span class="price">₺50</span>
-                    </div>
-                    <div class="menu-item">
-                        <h4>Filtre Kahve</h4>
-                        <p>Günlük öğütülmüş özel kahve çekirdekleri</p>
-                        <span class="price">₺40</span>
-                    </div>
-                    <div class="menu-item">
-                        <h4>Türk Kahvesi</h4>
-                        <p>Geleneksel yöntemle hazırlanan Türk kahvesi</p>
-                        <span class="price">₺35</span>
+                            <div class="menu-category">
+                                <h3>SOĞUK İÇECEKLER</h3>
+                                <div class="menu-items">
+                                    <div class="menu-item">
+                                        <div class="item-name">Cold Brew</div>
+                                        <div class="item-line"></div>
+                                        <div class="item-price">45₺</div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="item-name">Ice Americano</div>
+                                        <div class="item-line"></div>
+                                        <div class="item-price">42₺</div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="item-name">Ice Latte</div>
+                                        <div class="item-line"></div>
+                                        <div class="item-price">47₺</div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="item-name">Affogato</div>
+                                        <div class="item-line"></div>
+                                        <div class="item-price">50₺</div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="item-name">Frappuccino</div>
+                                        <div class="item-line"></div>
+                                        <div class="item-price">52₺</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu-category">
+                                <h3>TATLILAR</h3>
+                                <div class="menu-items">
+                                    <div class="menu-item">
+                                        <div class="item-name">Tiramisu</div>
+                                        <div class="item-line"></div>
+                                        <div class="item-price">65₺</div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="item-name">Cheesecake</div>
+                                        <div class="item-line"></div>
+                                        <div class="item-price">60₺</div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="item-name">Brownie</div>
+                                        <div class="item-line"></div>
+                                        <div class="item-price">55₺</div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="item-name">Cookie</div>
+                                        <div class="item-line"></div>
+                                        <div class="item-price">35₺</div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <div class="item-name">Croissant</div>
+                                        <div class="item-line"></div>
+                                        <div class="item-price">40₺</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="menu-category">
-                <h3>Soğuk İçecekler</h3>
-                <div class="menu-items">
-                    <div class="menu-item">
-                        <h4>Cold Brew</h4>
-                        <p>12 saat demlenen soğuk kahve</p>
-                        <span class="price">₺55</span>
-                    </div>
-                    <div class="menu-item">
-                        <h4>Buzlu Latte</h4>
-                        <p>Espresso, soğuk süt ve buz</p>
-                        <span class="price">₺52</span>
-                    </div>
-                    <div class="menu-item">
-                        <h4>Frappe</h4>
-                        <p>Buzlu kahve köpüğü ve süt</p>
-                        <span class="price">₺48</span>
-                    </div>
-                    <div class="menu-item">
-                        <h4>Affogato</h4>
-                        <p>Vanilyalı dondurma üzerine sıcak espresso</p>
-                        <span class="price">₺60</span>
+            </section>
+
+            <section id="subeler" class="locations-section">
+                <div class="section-title">
+                    <div class="title-frame">
+                        <h2>ŞUBELERİMİZ</h2>
                     </div>
                 </div>
-            </div>
-            <div class="menu-category">
-                <h3>Tatlılar</h3>
-                <div class="menu-items">
-                    <div class="menu-item">
-                        <h4>Brownie</h4>
-                        <p>Ev yapımı çikolatalı brownie</p>
-                        <span class="price">₺45</span>
+                <div class="locations-grid">
+                    <div class="location-card">
+                        <div class="vintage-frame">
+                            <div class="location-image">
+                                <img src="images/vintage-coffee-shop.svg" alt="Sivas Şubesi">
+                            </div>
+                            <div class="location-content">
+                                <h3>SİVAS</h3>
+                                <p>Atatürk Caddesi No: 123<br>Merkez/Sivas</p>
+                                <p>0346 222 22 22</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="menu-item">
-                        <h4>Cheesecake</h4>
-                        <p>New York usulü cheesecake</p>
-                        <span class="price">₺55</span>
-                    </div>
-                    <div class="menu-item">
-                        <h4>Tiramisu</h4>
-                        <p>İtalyan usulü kahveli tiramisu</p>
-                        <span class="price">₺50</span>
-                    </div>
-                    <div class="menu-item">
-                        <h4>Cookie</h4>
-                        <p>Damla çikolatalı cookie</p>
-                        <span class="price">₺30</span>
+
+                    <div class="location-card">
+                        <div class="vintage-frame">
+                            <div class="location-image">
+                                <img src="images/vintage-coffee-shop.svg" alt="İzmir Şubesi">
+                            </div>
+                            <div class="location-content">
+                                <h3>İZMİR</h3>
+                                <p>Alsancak Mahallesi 1234 Sokak No: 56<br>Konak/İzmir</p>
+                                <p>0232 333 33 33</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
+            </section>
 
-    <section id="hakkimizda" class="about">
-        <h2>Hakkımızda</h2>
-        <div class="about-content">
-            <p>2D konsepti ve minimalist tasarımıyla benzersiz bir kahve deneyimi sunan Cortado, 
-            modern kahve kültürünü sanatla buluşturuyor. Sivas ve İzmir'deki şubelerimizde, 
-            özenle seçilmiş kahve çekirdeklerini uzman baristalarımızın ellerinde eşsiz lezzetlere 
-            dönüştürüyoruz.</p>
-            <p>Her detayında sanatın izlerini taşıyan mekanlarımızda, kahvenizi yudumlayarak günün 
-            stresinden uzaklaşabilir, siyah-beyaz dünyamızın huzur veren atmosferinde kendinizi 
-            yenileyebilirsiniz.</p>
-        </div>
-    </section>
+            <section id="hakkimizda" class="about-section">
+                <div class="section-title">
+                    <h2>HAKKIMIZDA</h2>
+                </div>
+                <div class="about-content">
+                    <p>2D konsepti ve minimalist tasarımıyla benzersiz bir kahve deneyimi sunan Cortado, 
+                    modern kahve kültürünü sanatla buluşturuyor. Sivas ve İzmir'deki şubelerimizde, 
+                    özenle seçilmiş kahve çekirdeklerini uzman baristalarımızın ellerinde eşsiz lezzetlere 
+                    dönüştürüyoruz.</p>
+                </div>
+            </section>
 
-    <section id="iletisim" class="contact">
-        <h2>İletişim</h2>
-        <div class="contact-info">
-            <div class="contact-item">
-                <h3>E-posta</h3>
-                <a href="mailto:info@cortadocoffee.com">info@cortadocoffee.com</a>
-            </div>
-        </div>
-    </section>
+            <section id="iletisim" class="contact-section">
+                <div class="section-title">
+                    <h2>İLETİŞİM</h2>
+                </div>
+                <div class="contact-content">
+                    <a href="mailto:info@cortadocoffee.com">info@cortadocoffee.com</a>
+                </div>
+            </section>
+        </main>
 
-    <footer>
-        <div class="footer-content">
-            <div class="footer-logo">
-                <h3>Cortado</h3>
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2024 CORTADO</p>
             </div>
-            <div class="footer-links">
-                <a href="#subeler">Şubelerimiz</a>
-                <a href="#menu">Menü</a>
-                <a href="#hakkimizda">Hakkımızda</a>
-                <a href="mailto:info@cortadocoffee.com">İletişim</a>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 Cortado</p>
-        </div>
-    </footer>
+        </footer>
+    </div>
 
     <script src="script.js"></script>
 </body>
